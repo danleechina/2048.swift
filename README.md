@@ -8,7 +8,7 @@
 
 ## Setup
 
-The game is just tested in macOS platforms currently.
+The game is just tested in macOS platform currently.
 
 ### Requirements
 
@@ -19,9 +19,13 @@ The game is just tested in macOS platforms currently.
 
 1. Open `2048_swift.xcodeproj` with Xcode
 2. COMMAND + B to build in Xcode
-3. In the Project Navigator of Xcode open `Products` directory and right click `2048_swift`. Choose Show in finder
-4. Drag the `2048_swift` to Terminal app and input `enter`
-5. The game is running, enjoy it!
+3. When build without error, in the Project Navigator of Xcode, click `Products` directory, there is a binary file named `2048_swift`
+4. Drag the `2048_swift` file to Terminal app and input `enter`
+5. The game is running, have fun!
+
+### TODO
+
+Run the game as a Swift script, not binary.
 
 ## License
 
